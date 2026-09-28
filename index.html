@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="SRI SEA FOODS - Authentic Coastal Taste in Every Bite.">
+
+    <title>SRI SEA FOODS | Authentic Coastal Taste</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="header">
+
+        <div class="container nav">
+
+            <a href="#home" class="logo">
+                <span>SRI SEA</span>
+                <small>FOODS</small>
+            </a>
+
+            <button class="menu-btn" id="menuBtn">
+                ☰
+            </button>
+
+            <nav id="navLinks">
+
+                <a href="#home">Home</a>
+
+                <a href="#products">Pickles</a>
+
+                <a href="#about">Our Story</a>
+
+                <a href="#reviews">Reviews</a>
+
+                <a href="#contact">Contact</a>
+
+                <button class="cart-button" onclick="openCart()">
+                    Cart
+                    <span id="cartCount">0</span>
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="container hero-content">
+
+            <p class="eyebrow">
+                AUTHENTIC COASTAL TASTE
+            </p>
+
+            <h1>
+                Tradition in
+                <span>Every Bite.</span>
+            </h1>
+
+            <p class="hero-text">
+                Delicious traditional pickles made with rich flavours,
+                carefully selected ingredients and the taste of home.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#products" class="btn primary">
+                    SHOP PICKLES
+                </a>
+
+                <a href="#about" class="btn secondary">
+                    OUR STORY
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features">
+
+        <div class="container feature-grid">
+
+            <div>
+                <strong>275g</strong>
+                <span>Net Weight</span>
+            </div>
+
+            <div>
+                <strong>Fresh</strong>
+                <span>Carefully Packed</span>
+            </div>
+
+            <div>
+                <strong>India</strong>
+                <span>Delivery Available</span>
+            </div>
+
+            <div>
+                <strong>WhatsApp</strong>
+                <span>Easy Ordering</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="section products-section" id="products">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        OUR COLLECTION
+                    </p>
+
+                    <h2>
+                        Pickles Made to
+                        <span>Make Meals Better.</span>
+                    </h2>
+
+                </div>
+
+                <p>
+                    Choose your favourite pickle, add it to your cart
+                    and place your order directly through WhatsApp.
+                </p>
+
+            </div>
+
+            <div class="products-grid" id="productsGrid"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about" id="about">
+
+        <div class="container about-grid">
+
+            <div class="about-image">
+
+                <div class="about-box">
+
+                    <small>SRI SEA FOODS</small>
+
+                    <strong>
+                        AUTHENTIC<br>
+                        COASTAL<br>
+                        TASTE
+                    </strong>
+
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="eyebrow">
+                    OUR STORY
+                </p>
+
+                <h2>
+                    A Taste That
+                    <span>Feels Like Home.</span>
+                </h2>
+
+                <p>
+                    SRI SEA FOODS brings traditional coastal pickle
+                    flavours to your dining table. Every variety is
+                    prepared with care, rich flavour and attention
+                    to quality.
+                </p>
+
+                <div class="about-points">
+
+                    <div>
+                        <b>01</b>
+                        <span>Carefully selected ingredients</span>
+                    </div>
+
+                    <div>
+                        <b>02</b>
+                        <span>Traditional coastal flavours</span>
+                    </div>
+
+                    <div>
+                        <b>03</b>
+                        <span>Carefully packed for every order</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= REVIEWS ================= -->
+
+    <section class="section reviews-section" id="reviews">
+
+        <div class="container">
+
+            <div class="section-heading">
+
+                <div>
+
+                    <p class="eyebrow">
+                        CUSTOMER LOVE
+                    </p>
+
+                    <h2>
+                        What Our
+                        <span>Customers Say.</span>
+                    </h2>
+
+                </div>
+
+                <p>
+                    Real feedback from our customers.
+                </p>
+
+            </div>
+
+
+            <div class="reviews-grid">
+
+                <!-- REVIEW IMAGE 1 -->
+                <div class="review-card">
+
+                    <!-- PUT review-1.jpg INSIDE images FOLDER -->
+
+                    <img
+                        src="images/review-1.jpg"
+                        alt="SRI SEA FOODS Customer Review"
+                        onerror="this.style.display='none'"
+                    >
+
+                </div>
+
+
+                <!-- REVIEW IMAGE 2 -->
+                <div class="review-card">
+
+                    <!-- PUT review-2.jpg INSIDE images FOLDER -->
+
+                    <img
+                        src="images/review-2.jpg"
+                        alt="SRI SEA FOODS Customer Review"
+                        onerror="this.style.display='none'"
+                    >
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+        <div class="container">
+
+            <p class="eyebrow">
+                READY TO ORDER?
+            </p>
+
+            <h2>
+                Bring Home
+                <span>the Taste.</span>
+            </h2>
+
+            <p>
+                Choose your favourite pickles and order directly
+                through WhatsApp.
+            </p>
+
+            <a href="#products" class="btn primary">
+                VIEW PICKLES
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="section contact" id="contact">
+
+        <div class="container contact-grid">
+
+            <div>
+
+                <p class="eyebrow">
+                    CONTACT
+                </p>
+
+                <h2>
+                    Let's Get Your
+                    <span>Order Started.</span>
+                </h2>
+
+                <p>
+                    For orders and product enquiries, contact
+                    SRI SEA FOODS directly on WhatsApp.
+                </p>
+
+            </div>
+
+
+            <div class="contact-card">
+
+                <small>
+                    WHATSAPP ORDERS
+                </small>
+
+                <strong>
+                    +91 93446 61218
+                </strong>
+
+                <button
+                    class="btn dark"
+                    onclick="openWhatsApp()"
+                >
+                    CHAT ON WHATSAPP
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="container footer">
+
+            <div>
+
+                <strong>
+                    SRI SEA FOODS
+                </strong>
+
+                <p>
+                    Authentic Coastal Taste in Every Bite.
+                </p>
+
+            </div>
+
+            <p>
+                © <span id="year"></span>
+                SRI SEA FOODS. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ================= CART BACKDROP ================= -->
+
+    <div
+        class="cart-backdrop"
+        id="cartBackdrop"
+        onclick="closeCart()"
+    ></div>
+
+
+    <!-- ================= CART ================= -->
+
+    <aside class="cart" id="cart">
+
+        <div class="cart-header">
+
+            <div>
+
+                <p class="eyebrow">
+                    YOUR ORDER
+                </p>
+
+                <h3>
+                    Shopping Cart
+                </h3>
+
+            </div>
+
+            <button onclick="closeCart()">
+                ×
+            </button>
+
+        </div>
+
+
+        <div
+            class="cart-items"
+            id="cartItems"
+        ></div>
+
+
+        <div
+            class="empty-cart"
+            id="emptyCart"
+        >
+            Your cart is empty.
+
+            <br><br>
+
+            <a
+                href="#products"
+                onclick="closeCart()"
+            >
+                Browse Pickles
+            </a>
+        </div>
+
+
+        <div class="cart-summary">
+
+            <div class="summary-row">
+
+                <span>Subtotal</span>
+
+                <strong id="subtotal">
+                    ₹0
+                </strong>
+
+            </div>
+
+
+            <div class="summary-row">
+
+                <span>Delivery</span>
+
+                <strong id="delivery">
+                    Select at checkout
+                </strong>
+
+            </div>
+
+
+            <div class="total">
+
+                <span>Total</span>
+
+                <strong id="total">
+                    ₹0
+                </strong>
+
+            </div>
+
+
+            <button
+                class="btn primary full"
+                onclick="openCheckout()"
+            >
+                CHECKOUT ON WHATSAPP
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================= CHECKOUT ================= -->
+
+    <div
+        class="modal-backdrop"
+        id="checkoutModal"
+    >
+
+        <div class="checkout">
+
+            <button
+                class="close-modal"
+                onclick="closeCheckout()"
+            >
+                ×
+            </button>
+
+
+            <p class="eyebrow">
+                DELIVERY DETAILS
+            </p>
+
+
+            <h2>
+                Complete Your Order
+            </h2>
+
+
+            <p class="checkout-note">
+                Enter your delivery details. Your order
+                will be sent directly to SRI SEA FOODS
+                through WhatsApp.
+            </p>
+
+
+            <form id="checkoutForm">
+
+
+                <label>
+                    Full Name
+
+                    <input
+                        type="text"
+                        id="customerName"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </label>
+
+
+                <label>
+                    Phone Number
+
+                    <input
+                        type="tel"
+                        id="customerPhone"
+                        placeholder="10-digit mobile number"
+                        maxlength="10"
+                        pattern="[0-9]{10}"
+                        required
+                    >
+
+                </label>
+
+
+                <label>
+                    Full Delivery Address
+
+                    <textarea
+                        id="customerAddress"
+                        rows="4"
+                        placeholder="House No, Street, Area, City, Pincode"
+                        required
+                    ></textarea>
+
+                </label>
+
+
+                <label>
+                    State
+
+                    <select
+                        id="customerState"
+                        required
+                    >
+
+                        <option value="">
+                            Select State
+                        </option>
+
+                        <option value="Tamil Nadu">
+                            Tamil Nadu
+                        </option>
+
+                        <option value="Kerala">
+                            Kerala
+                        </option>
+
+                        <option value="Karnataka">
+                            Karnataka
+                        </option>
+
+                        <option value="Andhra Pradesh">
+                            Andhra Pradesh
+                        </option>
+
+                        <option value="Telangana">
+                            Telangana
+                        </option>
+
+                        <option value="Maharashtra">
+                            Maharashtra
+                        </option>
+
+                        <option value="Gujarat">
+                            Gujarat
+                        </option>
+
+                        <option value="Delhi">
+                            Delhi
+                        </option>
+
+                        <option value="West Bengal">
+                            West Bengal
+                        </option>
+
+                        <option value="Rajasthan">
+                            Rajasthan
+                        </option>
+
+                        <option value="Uttar Pradesh">
+                            Uttar Pradesh
+                        </option>
+
+                        <option value="Other State">
+                            Other State
+                        </option>
+
+                    </select>
+
+                </label>
+
+
+                <div class="checkout-total">
+
+                    <span>
+                        Total Bill
+                    </span>
+
+                    <strong id="checkoutTotal">
+                        ₹0
+                    </strong>
+
+                </div>
+
+
+                <button
+                    type="submit"
+                    class="btn primary full"
+                >
+                    SEND ORDER ON WHATSAPP
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
